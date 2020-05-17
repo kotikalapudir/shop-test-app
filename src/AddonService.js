@@ -11,7 +11,7 @@ class AddonService {
     constructor(props) {
     }
 
-    async invokeAddon() {
+    invokeAddon() {
         try {
             // read contents of the file
             console.log(`file path is ${process.env.ADDON_SKU_FILE_PATH}`);

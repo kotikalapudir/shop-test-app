@@ -11,7 +11,7 @@ class PlanService {
     constructor(props) {
     }
 
-    async invokePlan() {
+    invokePlan() {
         try {
             // read contents of the file
             console.log(`file path is ${process.env.PLAN_SKU_FILE_PATH}`);

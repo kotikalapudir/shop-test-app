@@ -9,12 +9,12 @@ app.get('/', (req, res) => {
 });
 
 app.get('/getPlan', (req, res) => {
-    await = planService.invokePlan();
+    planService.invokePlan();
     res.send('Successly Processed the Plan Details,please check the test folder for further details');
 })
 
 app.get('/getAddon', (req, res) => {
-    await = addonService.invokeAddon();
+    addonService.invokeAddon();
     res.send('Successly Processed the Addon Details,please check the test folder for further details');
 })
 
