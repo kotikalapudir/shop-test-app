@@ -52,5 +52,4 @@ class AddonService {
         });
     }
 }
-
 module.exports =  AddonService;
